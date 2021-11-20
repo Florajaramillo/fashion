@@ -1,3 +1,88 @@
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 2pxrgb(235, 130, 45)f;
+}
+
+header .container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(224, 92, 132);
+}
+
+header .container .content-img{
+    
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .container .content-img img{
+    width: 100%;
+}
+
+header .container .content-nav nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header .container .content-nav nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+header .container .content-nav nav ul li{
+    padding: 5px 10px ;
+    font-family: 'Source Code Pro', monospace;
+}
+
+header .container .content-nav nav ul li a{
+    text-decoration: none;
+    font-size: 1.2em;
+    background-color: khaki;
+}
+
+header .container .content-logs{
+    width: 40%;
+    display: flex;
+    margin: auto;
+}
+
+header .container .content-logs div{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header .container .content-logs div:nth-child(1){
+    display: flex;
+    justify-content: end;
+    margin-right: 30px;
+    
+}
+
+header .container .content-logs div:nth-child(2){
+    justify-content: start;
+    display: flex;
+    margin-left: 30px;
+}
+
+header .container .content-logs div a svg{
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+
+
 body{
     width:100%;
     margin: 0px;
